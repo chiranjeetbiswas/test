@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="matrix.js"></script>
+</head>
+<body>
+    <label for="order"></label>
+    <input type="text" id="order">
+    <button onclick="order1()">order</button>
+    <br>
+    <button onclick="matrix1('showw')">matrix</button>
+    <div id="showw">
+    </div>
+    <div>
+        <h2>Upper Triangular Matrix</h2>
+        <div>
+            <button onclick="umatrix('upper')">Click here to Start calculation for U</button>
+        </div>
+        <div id="upper">
+
+        </div>
+    </div>
+    <div>
+        <h2>Lower Triangular Matrix</h2>
+        <div>
+            <button onclick="Lmatrix('lower')">Click here to Start calculation for L</button>
+        </div>
+        <div id="lower">
+
+        </div>
+    </div>
+
+</body>
+</html>
